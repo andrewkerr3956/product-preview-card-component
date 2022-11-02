@@ -52,6 +52,7 @@ body {
     text-transform: uppercase;
     color: hsl(228, 12%, 48%);
     letter-spacing: 5px;
+    font-size: 12px;
 }
 
 h1 {
@@ -115,6 +116,8 @@ button:focus {
 .strike-price {
     text-decoration: line-through;
     color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    line-height: 23px;
 }
 
 .item-img-mobile {
