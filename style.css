@@ -5,7 +5,7 @@
 }
 
 :root {
-    font-size: 14px;
+    font-size: 14px !important;
 }
 
 html,
@@ -63,12 +63,12 @@ body > main {
     text-transform: uppercase;
     color: hsl(228, 12%, 48%);
     letter-spacing: 5px;
-    font-size: 12px;
+    font-size: 0.85rem;
 }
 
 h1 {
     margin-top: 20px;
-    font-size: 32px;
+    font-size: 2.29rem;
     line-height: 32px;
     font-weight: 700;
     font-family: 'Fraunces', sans-serif;
@@ -123,13 +123,13 @@ button:focus {
     color: hsl(158, 36%, 37%);
     font-weight: 700;
     font-family: 'Fraunces', sans-serif;
-    font-size: 32px;
+    font-size: 2.29rem;
     line-height: 32px;
 }
 
 .strike-price {
     color: hsl(228, 12%, 48%);
-    font-size: 13px;
+    font-size: 0.93rem;
     line-height: 23px;
 }
 
@@ -178,5 +178,29 @@ button:focus {
 
     button {
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    :root {
+        font-size: 12px !important;
+    }
+
+    .price {
+        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    :root {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .item-info {
+        overflow-y: auto;
     }
 }
