@@ -105,6 +105,8 @@ button {
     width: 100%;
     font-weight: 700;
     font-size: 14px;
+    font-family: inherit;
+    line-height: 17px;
     margin-top: 30px;
 }
 
