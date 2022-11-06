@@ -6,5 +6,6 @@
 ### Built with
 
 - Semantic HTML
+- Grid
 - Flexbox
 - Media Queries
